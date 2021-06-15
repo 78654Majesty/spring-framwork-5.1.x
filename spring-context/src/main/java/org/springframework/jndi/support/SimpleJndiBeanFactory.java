@@ -62,7 +62,7 @@ import org.springframework.lang.Nullable;
  * @see org.springframework.context.annotation.CommonAnnotationBeanPostProcessor
  */
 public class SimpleJndiBeanFactory extends JndiLocatorSupport implements BeanFactory {
-
+	// 三级缓存
 	/** JNDI names of resources that are known to be shareable, i.e. can be cached */
 	private final Set<String> shareableResources = new HashSet<>();
 

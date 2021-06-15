@@ -25,6 +25,8 @@ import org.springframework.lang.Nullable;
  * Simple interface for bean definition readers.
  * Specifies load methods with Resource and String location parameters.
  *
+ * xml/yml/json 获取bean定义信息
+ *
  * <p>Concrete bean definition readers can of course add additional
  * load and register methods for bean definitions, specific to
  * their bean definition format.
